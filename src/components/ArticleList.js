@@ -5,10 +5,10 @@ function ArticleList({posts}) {
     const posts_ = posts.map(post => {
         return (
             <>
-                <Article title={post.title} date={post.date} preview={post.preview}/>
+                <Article key={"post"+post.id} title={post.title} date={post.date} preview={post.preview}/>
             </>
-        )
-    })
+        );
+    });
     
     return (
         <main>
