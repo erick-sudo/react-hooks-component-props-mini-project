@@ -1,9 +1,9 @@
 import React from "react"
 
-function Header({nameofblog}) {
+function Header({name}) {
     return (
         <header>
-            <h1>{nameofblog}</h1>
+            <h1>{name}</h1>
         </header>
     );
 }

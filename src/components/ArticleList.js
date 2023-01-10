@@ -1,17 +1,18 @@
 import React from "react";
 import Article from "./Article";
 
-function ArticleList({articles}) {
-    const _articles = articles.map(article => {
+function ArticleList({posts}) {
+    const posts_ = posts.map(post => {
         return (
             <>
-                <Article title={article.title} date={article.date} preview={article.preview}/>
+                <Article title={post.title} date={post.date} preview={post.preview}/>
             </>
         )
-    });
+    })
+    
     return (
         <main>
-            {_articles}
+            {posts_}
         </main>
     );
 }
