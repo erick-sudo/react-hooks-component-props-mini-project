@@ -69,7 +69,7 @@ Make an `Article` component as a child of `ArticleList`. It should return:
 You'll notice in the original [Overreacted](https://overreacted.io/) site, there's a
 'minutes to read' indicator next to each article.
 
-If the article takes less than 30 minutes to read:
+If  ☕️ the article takes less than 30 minutes to read:
 
 - For every 5 minutes (rounded up to the nearest 5), display a coffee cup emoji.
   For example, if the article takes 3 minutes to read, you should display "☕️ 3
